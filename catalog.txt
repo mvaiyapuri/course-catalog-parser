@@ -1,0 +1,59 @@
+Course: CS46A
+Title: "Introduction to Programming"
+Units: 4
+Desc: "Basic skills and concepts of computer programming in an object-oriented approach using Java."
+Prereq: 'NONE'
+ 
+Course: CS46B
+Title: "Introduction to Data Structures"
+Units: 4
+Desc: "Stacks and queues, recursion, lists, dynamic arrays, binary search trees."
+Prereq: 'CS46A'
+
+Course: CS47
+Title: "Introduction to Computer Systems"
+Units: 3
+Desc: "Instruction sets, assembly language and assemblers, linkers and loaders, data representation and manipulation."
+Prereq: 'CS46B'
+
+Course: CS100W
+Title: "Technical Writing Workshop"
+Units: 3
+Desc: "Advanced writing through preparation of technical reports and presentations."
+Prereq: 'NONE'
+
+Course: CS146
+Title: "Data Structures and Algorithms"
+Units: 3
+Desc: "Implementations of advanced tree structures, priority queues, heaps, directed and undirected graphs."
+Prereq: 'CS46B'
+
+Course: CS151
+Title: "Object-Oriented Design"
+Units: 3
+Desc: "Design of classes and interfaces. Object-oriented design methodologies and notations."
+Prereq: 'CS46B'
+
+Course: CS160
+Title: "Software Engineering"
+Units: 3
+Desc: "Software engineering principles, software process and process models, requirements elicitation and analysis."
+Prereq: 'CS146 CS151 CS100W' 
+
+Course: CS149
+Title: "Operating Systems"
+Units: 3
+Desc: "Contiguous and non-contiguous memory management, processor scheduling and interrupts."
+Prereq: 'CS47 CS146'  
+
+Course: CS166
+Title: "Information Security"
+Units: 3
+Desc: "Cryptography, authentication, access control, network security, security protocols, and software security."
+Prereq: 'CS47 CS146'  
+
+Course: CS134
+Title: "Computer Game Design and Programming"
+Units: 3
+Desc: "Architectures and object-oriented patterns for computer game design."
+Prereq: 'CS146 CS151'  
