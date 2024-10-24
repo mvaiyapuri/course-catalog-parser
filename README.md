@@ -14,5 +14,3 @@ catalog.txt: The input catalog text file.
 cb.py: A command line tool that defines subcommands, uses argparse to parse & utilize user input, and queries database & prints results.
 
 main.py: Specifies the database that is connected to, reads & parses the input catalog text file, and loads parsed info into the database as it invokes methods from DBListener.
-
-New line for parser 2.
